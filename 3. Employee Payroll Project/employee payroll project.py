@@ -2,7 +2,7 @@ import tkinter as tk
 import tkinter.messagebox
 import mysql.connector as mysql
 
-cn = mysql.connect(database="testdb",user="root",password="Udayk0596@")
+cn = mysql.connect(database="testdb",user="root",password="your password")
 c=cn.cursor()
 w=tk.Tk()
 w.geometry("500x500+300+300")
